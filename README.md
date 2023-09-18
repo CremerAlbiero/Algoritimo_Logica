@@ -1,1 +1,1 @@
-# Algoritimo_Logica
+1º semestre: Algoritimos e Lógica de Programação
