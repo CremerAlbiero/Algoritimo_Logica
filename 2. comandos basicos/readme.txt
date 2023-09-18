@@ -1,0 +1,1 @@
+executados em cmd na sala de aula.
