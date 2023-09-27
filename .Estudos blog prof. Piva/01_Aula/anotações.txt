@@ -1,0 +1,48 @@
+#Algoritimo: um conjunto de etapas para executar uma tarefa!
+#O algoritmo deve fornecer uma solução correta para o problema.
+#Tempo! É a medida principal de eficiência que usamos para avaliar um algoritmo.
+
+#Python é uma linguagem Interpretada (alto nível).
+
+Processo de Compilação:
+- Análise Léxica: Reconhece as sequencias de simbolos que representam uma unidade: o nome de uma variável, constante e palavras de instrução (while, for...)
+- Análise sintática: Identifica a estrutura gramatical do programa e o papel de cada componente. É construída uma árvore sintática (binária, estruturalmente) e uma tabela de símbolos que representam as variáveis.
+- Geração de Código: processo de construcao de instruções da linguagem de máquina (em assembly) que simulam as intruções reconhecidas na análise sintática.
+
+Vnategens: Execução mais rápida, código já está traduzido; 
+Executáveis são pequenos;
+Controle sobre o Hardware.
+
+Desvantagens:
+Só roda na arquitetura em que for compilado;
+
+
+Linguagens Interpretadas:
+- "Traduzir" ou "explicar";
+- Traduzido para uma linguagem intermediária que mais tarde será novamente traduzido para linguagem de máquina.
+Programa Alto Nível ⟶ Programa Intermediário/Executável ⟶  Máquina Virtual VM (Interpretadora).
+
+- Máquina Virtual:
+traduz os comandos da linguagem intermediária p linguagem de máquina em tempo de execução. A VM reconhece toda a arquitetura de hardware e traduz de acordo com o equipamento (culpa do Java).
+
+Vantagens:
+- Idepende de arquitetura (desde que suporte a VM)
+- A VM controla o hardware.
+
+Desvantagens:
+- Desempenho inferior à linguagem compilada (C, C++, Rust)  por causa da tradução Just-In-Time, mas nada alarmante;
+- Consome bastante hardware (Java);
+- A VM controla o hardware.
+
+Compiladas: C, C++, Rust, Go.
+Interpretadas: Pythin, Ruby, PHP, Javascript.
+Uma mesma linguagem pode ter os dois! Java.
+
+
+
+
+
+
+
+
+
