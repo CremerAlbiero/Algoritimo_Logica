@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #Algoritimo: um conjunto de etapas para executar uma tarefa!
+=======
+>>>>>>> 003ebee86509cb2418d501add22e9ac69d956869
 #O algoritmo deve fornecer uma solução correta para o problema.
 #Tempo! É a medida principal de eficiência que usamos para avaliar um algoritmo.
 
@@ -15,6 +18,31 @@ Controle sobre o Hardware.
 
 Desvantagens:
 Só roda na arquitetura em que for compilado;
+<<<<<<< HEAD
+=======
+
+
+Linguagens Interpretadas:
+- "Traduzir" ou "explicar";
+- Traduzido para uma linguagem intermediária que mais tarde será novamente traduzido para linguagem de máquina.
+Programa Alto Nível ⟶ Programa Intermediário/Executável ⟶  Máquina Virtual VM (Interpretadora).
+
+- Máquina Virtual:
+traduz os comandos da linguagem intermediária p linguagem de máquina em tempo de execução. A VM reconhece toda a arquitetura de hardware e traduz de acordo com o equipamento (culpa do Java).
+
+Vantagens:
+- Idepende de arquitetura (desde que suporte a VM)
+- A VM controla o hardware.
+
+Desvantagens:
+- Desempenho inferior à linguagem compilada (C, C++, Rust)  por causa da tradução Just-In-Time, mas nada alarmante;
+- Consome bastante hardware (Java);
+- A VM controla o hardware.
+
+Compiladas: C, C++, Rust, Go.
+Interpretadas: Pythin, Ruby, PHP, Javascript.
+Uma mesma linguagem pode ter os dois! Java.
+>>>>>>> 003ebee86509cb2418d501add22e9ac69d956869
 
 
 Linguagens Interpretadas:
