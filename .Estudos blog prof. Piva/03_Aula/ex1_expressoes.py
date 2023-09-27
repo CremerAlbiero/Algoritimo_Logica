@@ -1,5 +1,3 @@
-from math import *
-
 expression_a = 2 > 3
 print(expression_a)
 
