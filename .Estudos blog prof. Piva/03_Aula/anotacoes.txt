@@ -1,7 +1,11 @@
+link da aula: http://www.fatecead.com.br/alp/aula03_ppt.pdf
 Tipos de dados:
 
-Pensando em termos dos programas: letras, nomes que servem de "entrada" ou "matéria-prima" para realizar tarefas e ações planejadas no algoritmo deve-se leva em consideração o tamanho e as características de cada um.
-Dependendo do valor, uma qtde maior ou menor de memória deverá ser alocada para guardar esse valor. E essa memória reservada e devidamente rotulada, chamamos de "variável".
+Pensando em termos dos programas: letras, nomes que servem de "entrada" ou "matéria-prima" para realizar tarefas e ações planejadas no algoritmo 
+deve-se levar em consideração o tamanho e as características de cada um.
+Dependendo do valor, uma qtde maior ou menor de memória deverá ser alocada para guardar esse valor. E essa memória reservada e devidamente rotulada, 
+chamamos de "variável".
+
 Tipos básicos:
 Inteiro (int); Real(float); Caracter(str); Lógico (True or False).
 
@@ -15,8 +19,7 @@ dos números complexos.
 #Simples: números(int, float, long, complex) e caracteres(string)
 #Compostos: listas, dicionários e conjuntos.
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________
-RESUMO VARIÁVEIS:  São nomes dados a áreas de memória.
+______________________________________________________________________________________________________________________________________________________
 os nomes podem ser compostos de algarimos, letras e _.
 Há alguns reseverdados, como: if, while...
 #servem para: 
@@ -32,15 +35,88 @@ a = 1
 b = "1"
 
 a + b = (TypeError), não é possível somar um valor 'str' e 'int'.
-
+______________________________________________________________________________________________________________________________________________________
 #Números:
 int: numeros inteiros (1, 2, 3);
 floats: numeros racionais (1.443 , 2.25, 3.2);
 complex: numeros complexos (1+1j, 20j, 1000+100j).
 
 long: foi removido na atualizacao (conferir).
-_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#números ponto flutuante:
+são como os double's da linguagem C.
+Constantes tem que possuir um ponto decimal ou serem escritas em notação cientifica com a letra "e" precedendo a potência de 10.
+10.0;
+99e3: 99000.0
+99e-3: 0.099000000000000005
+
+#numeros complexos:
+representados com dois numeros de ponto flutuante: 1 para parte real e outro para parte imaginária.
+
+constantes são escritas com uma soma e a parte imaginária com sufixo j ou J.
+>>> 1+2j
+(1+2j)
+
+>>> 1+2j*3
+(1+6j)
+
+>>> (1+2j)*3j
+(-6+3j)
+______________________________________________________________________________________________________________________________________________________
+Strings
+
+são escritas usando 'aspas simples' ou "aspas duplas" e podem ser concatenadas usando "+".
+ex:
+a = Nome
+b = Sobrenome
+
+a + b = NomeSobrenome
+a*3 = NomeNomeNome
+
+Caracteres não imprimíveis podem ser expressos usando notação (\) barra invertida:
+◼ \n é o mesmo que new line;
+◼ \r é o mesmo que carriage return;
+◼ \t é o mesmo que tab;
+◼ \b é o mesmo que backspace;
+◼ \x41 é o mesmo que o caractere cujo código hexadecimal é 41;
+
+#a notação (\) pode ser desativada desde que seja precedida por um r:
+>>> print (r"abc\ncd\tef")
+abc\ncd\tef
 
 
 
+#Notação: string[índice]
+primeiro caractere tem índice 0
+O último caractere tem índice -1
+>>> a = "abcde"
+>>> a[0]
+'a'
 
+>>> a[-1]
+'e'
+______________________________________________________________________________________________________________________________________________________
+Expressoes booleanas:
+>>> 1==1
+True
+
+>>> not 1<2
+False
+
+>>> "alo" or 1
+'alo'
+
+as constantes True e False são apenas simbolos convenientes. 
+Na verdade, qualquer valor não nulo é visto como "True" e um nulo (ou 0) é visto como "False".
+
+"or" retorna o primeiro operando caso for verdadeiro, se for falso, retorna o segundo.
+"and" retorna o primeiro operando se for visto como falso, se for verdadeiro, retorna o segundo.
+______________________________________________________________________________________________________________________________________________________
+Funções Embutidas
+- além dos op logicos, há as funcoes embutidas (sempre disponiveis) que é sempre importado em toda aplicação.
+exemplos:
+ 
+- abs(x) Retorna o valor absoluto de um número.
+- type() retorna o tipo do objeto (int, float, str...)
+- max () retorna o maior item em um interável ou o maior de dois ou mais argumentos.
+______________________________________________________________________________________________________________________________________________________
