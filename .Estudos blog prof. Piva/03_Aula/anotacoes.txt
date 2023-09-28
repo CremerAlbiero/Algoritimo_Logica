@@ -1,0 +1,46 @@
+Tipos de dados:
+
+Pensando em termos dos programas: letras, nomes que servem de "entrada" ou "matéria-prima" para realizar tarefas e ações planejadas no algoritmo deve-se leva em consideração o tamanho e as características de cada um.
+Dependendo do valor, uma qtde maior ou menor de memória deverá ser alocada para guardar esse valor. E essa memória reservada e devidamente rotulada, chamamos de "variável".
+Tipos básicos:
+Inteiro (int); Real(float); Caracter(str); Lógico (True or False).
+
+é aconselhável nomear com letra minúsculas e sem caracteres especiais.
+
+
+RESUMO TIPOS DE DADOS:São categorias de valores que são processados de forma 
+semelhante.
+Números inteiros são processados de forma diferente dos números de ponto flutuante (decimais) e 
+dos números complexos.
+#Simples: números(int, float, long, complex) e caracteres(string)
+#Compostos: listas, dicionários e conjuntos.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+RESUMO VARIÁVEIS:  São nomes dados a áreas de memória.
+os nomes podem ser compostos de algarimos, letras e _.
+Há alguns reseverdados, como: if, while...
+#servem para: 
+- construir estrutura de dados;
+- guardar valores intermediários.
+
+variável pode ser modificada usando o comando de atribuição: Var
+Var = expressão
+tbm é possível atribuir a outras variáveis simultaneamente.
+
+ela pode mudar confome valor atribuído, como:
+a = 1
+b = "1"
+
+a + b = (TypeError), não é possível somar um valor 'str' e 'int'.
+
+#Números:
+int: numeros inteiros (1, 2, 3);
+floats: numeros racionais (1.443 , 2.25, 3.2);
+complex: numeros complexos (1+1j, 20j, 1000+100j).
+
+long: foi removido na atualizacao (conferir).
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
