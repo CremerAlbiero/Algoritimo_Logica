@@ -1,0 +1,11 @@
+#indentificador é uma variével e sempre aparecerá ao lado esqurdo da atribuição.
+#indentificador = expressao
+
+print(A,B,C, 20, "Nome", 'x')
+no exemplo acima, o comando print fará a impressão de : 
+- conteudo das variaveis: A, B, C;
+- constante: 20;
+- cadeia-de-caracteres: Nome;
+- caractere: x.
+
+
