@@ -8,4 +8,5 @@ no exemplo acima, o comando print fará a impressão de :
 - cadeia-de-caracteres: Nome;
 - caractere: x.
 
+continuar anotações em casa...
 
