@@ -1,6 +1,0 @@
-#também existe o índice negativo, onde o -1, será o último caractere:
-
-palavra = 'algoritmo'
-
-
-print(palavra[::-1]) #trará a palavra ao contrário.

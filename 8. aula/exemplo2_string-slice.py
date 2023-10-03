@@ -12,3 +12,11 @@ print(s1+' '+s2)
 #slice
 palavra = 'paralelepipedo'
 print(palavra[4:10]) #lelepi
+
+
+#também existe o índice negativo, onde o -1, será o último caractere:
+
+palavra = 'algoritmo'
+
+
+print(palavra[::-1]) #trás a palavra ao contrário.
