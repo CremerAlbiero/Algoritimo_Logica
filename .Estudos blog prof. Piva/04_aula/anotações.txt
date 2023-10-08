@@ -8,5 +8,48 @@ no exemplo acima, o comando print fará a impressão de :
 - cadeia-de-caracteres: Nome;
 - caractere: x.
 
-continuar anotações em casa...
+- atribuição dupla de uma variável:
+a,b=0,1       (atribuição dupla)
+while b < 10  (comando de repetição)
+________________________________________________________________________________________________________________________
+#input POR PADRÃO, salva o valor como string. 
+Assim, no caso de valores números utilizar Int ou Float.
+
+a = input("Digite um número: ")
+usuário: 19
+type(a) <str>
+
+#input é uma instrução de E/S:
+- Entrada de dados → Processamento de Dados → Saída de Dados
+- Usuário entra com um dado → leitura de dados tipados via teclado (str) → apresenta dados no monitor.
+
+print() é uma instrução que apresenta dados no monitor, E/S.
+________________________________________________________________________________________________________________________
+caracteres especiais:
+\n nova linha 
+\r enter
+\t tabulação (tab)
+\b retrocesso
+\” aspas
+\\ barra
+________________________________________________________________________________________________________________________
+#Operadores Aritméticos
+
+* Multiplicação
+/ Divisão
+% Resto da divisão inteira
+- Subtração (unário)
++ Adição
+
+
+#Operadores Relacionais e Lógicos
+> Maior que
+>= Maior ou igual que
+< Menor que
+<= Menor ou igual que
+== Igual a
+!= Diferente de
+and Condição “E”
+or Condição “OU”
+not Não
 
