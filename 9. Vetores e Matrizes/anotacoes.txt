@@ -1,0 +1,12 @@
+#Matrizes e Vetores.
+
+Nas strings, n é possível alterar elementos individuas. 
+Porém, isso é possível em lista. inclusive alterar o elemento para float, int ou str (lista heterogênea).
+
+Uma constante do tipo lista é escrita entre colchetes com os elementos separados por vírgula:
+[] lista vazia
+[1,2] lista com 2 elementos
+
+#Os elementos de uma lista podem ser de qualquer tipo,
+inclusive listas:
+lista = [1, 'a', 2+3j, ['ab', 'CD']]
