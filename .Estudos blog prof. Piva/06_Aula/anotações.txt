@@ -1,0 +1,39 @@
+#Estruturas de Repetição
+
+Conjunto ou sequência de comandos que dão mais movimento aos programas/scripts.
+Permite que uma determinada ação seja executada mais de uma vez sem que tenhamos que executar novamente todo o programa/script.
+Exemplo: podemos testar entradas de dados e pedir que o usuário repita até que um valor válido seja digitado.
+
+o loop de repetição é útil p automatizar, por exemplo, entrada de dados que possuem repetição.
+__________________________________________________________________________________________________________________________________
+#Repetição Definida: quando sabemos a qtde de vezes que a ação será repetida.
+Neste caso, utiliza-se muito o comando "for".
+
+a <variavel de interação> receberá o valor conforme a <sequencia> definida:
+
+for <variável de interação> in <sequencia>:
+    comando(s)
+
+<sequencia>
+range([inicio,] fim [,passo])
+
+ex:
+range(3)       → 0, 1, 2
+range(2, 6)    → 2, 3, 4, 5
+range(2, 7, 2) → 2, 4, 6  #pula de 2 em 2 (limite 7).
+
+o final é a borda superior.
+__________________________________________________________________________________________________________________________________
+#Repetição Indefinida.
+Neste caso, utiliza-se muito o comando "while".
+
+while <expressao_logica> True:
+   executa comando(s)
+
+- os comandos são repetidos até que a expressao logica seja considerada falsa.
+__________________________________________________________________________________________________________________________________
+#comandos "break" e "continue"
+
+break: interrompe o looping e executa os comandos subsequentes.
+
+continue: interrompe o looping e devolve o fluxo de execução para o topo (while ou for).
