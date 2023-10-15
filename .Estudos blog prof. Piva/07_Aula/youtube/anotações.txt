@@ -5,6 +5,12 @@ Permite que uma determinada ação seja executada mais de uma vez sem que tenham
 Exemplo: podemos testar entradas de dados e pedir que o usuário repita até que um valor válido seja digitado.
 
 o loop de repetição é útil p automatizar, por exemplo, entrada de dados que possuem repetição.
+
+para <variável> de <valor-inicial> ate <valor-limite> [passo <incremento>] 
+faca
+<seqüência-de-comandos>
+fimpara
+
 __________________________________________________________________________________________________________________________________
 #Repetição Definida: quando sabemos a qtde de vezes que a ação será repetida.
 Neste caso, utiliza-se muito o comando "for".
