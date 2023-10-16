@@ -1,0 +1,15 @@
+#Tipos de dados: Strings.
+- uma string é uma sequência, como se fosse uma lista. Uma lista onde cada caracter está alocado em uma determinada posição.
+
+obs: tanto faz usar " " ou '' para guardar caracteres. No entanto é possível usar da seguinte fomra:
+'o número "1" é menor que 2'. No caso, para quando for necessário exibir aspadas dentro da string.
+
+#quebra de linha interna:
+'''utilizando três aspsas,
+você pode teclar diretamente o espaço e gerar "quebra" de linhas.'''
+
+#a partir de relações entre dados contidos em strings, podemos gerar "informação".
+
+- a função input por padrão, SEMPRE guarda os dados como string. Para alterar isso, deve-se usar uma conversão.
+________________________________________________________________________________________________________________________________
+
