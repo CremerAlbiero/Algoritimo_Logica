@@ -1,0 +1,28 @@
+#Aula09: Listas e Matrizes (slides pdf e vídeo aula42 pyPRO)
+
+#listas:
+são coleções de caracteres, strings, numeros que sao ordenados e separados por vírgula dentro de colchetes [].
+
+#Existem listas homogêneas e heterogêneas.
+
+• Homogêneas: composta de um único tipo de elementos: apenas str, int, float.
+[1, 2, 3, 4, ...]    ['a', 'b', 'c'....]    ['texto1', 'texto2',...]
+
+• Heterogêneas: composta de dois ou mais tipos, inclusive outras listas. 
+[1, 2, 'a', [4, 5,6], 'b']
+
+não é possível concatenar uma lista com outra classe. Para isso, os dois devem ser do tipo list.
+____________________________________________________________________________________________________________________
+as listas [] são elementos mutáveis
+as tuplas () são elementos imutáveis
+____________________________________________________________________________________________________________________
+lista3 = lista1  
+ambas vão apontar para uma mesma posição da memória. 
+NÃO está criando uma lista nova, apenas compartilhando o mesmo espaço de memória.
+
+____________________________________________________________________________________________________________________
+>> lista_logica = [True, True, False]    #False é entendido como "0" e True como "qualquer nº diferente de 0".
+>>> all(lista_logica)  = False (todos os elementos)
+>>> any(lista_logica)  = True  (qualquer um dos elementos)
+
+____________________________________________________________________________________________________________________
