@@ -10,4 +10,4 @@ str.title() #retorna a string apitaliz(inciais em maiúsculo)
 
 str.join() #junta cada item da string com um delimitador especificado. Inverso de split.
 
-
+str.strip(ch) #Retorna a string sem caracteres iniciais ou finais que estejam na string: str.strip('ab') retira os caracteres da string.

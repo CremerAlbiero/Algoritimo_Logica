@@ -13,3 +13,9 @@ você pode teclar diretamente o espaço e gerar "quebra" de linhas.'''
 - a função input por padrão, SEMPRE guarda os dados como string. Para alterar isso, deve-se usar uma conversão.
 ________________________________________________________________________________________________________________________________
 
+O operador de formatação % em Python é usado para formatar strings. Ele permite que você insira valores em uma string formatada. No entanto, é importante notar que o operador % está se tornando obsoleto em favor das f-strings, que são mais legíveis e poderosas e foram introduzidas a partir do Python 3.6. No entanto, ainda é válido aprender o uso do % para entender código legado ou bibliotecas mais antigas. Aqui estão alguns exemplos de como usar o operador de formatação %:
+Especificadores de formato:
+
+%s é usado para strings.
+%d é usado para inteiros.
+%f é usado para números de ponto flutuante.
