@@ -1,0 +1,110 @@
+# Vetor
+o vetor é uma variável composta homogênea Unidimensional. 
+- Composta: pois é constituído de n elementos ou variáveis; 
+- Homogênea porque armazena dados de um único tipo;
+- Unidimensional porque é linear ou seja possui somente uma dimensão.
+como ele é constituído de n elementos, devemos estabelecer o número máximo de elementos que ele irá conter.
+
+Para o computador acessar um Vetor é preciso que ele conheça o Nome do Vetor, e um valor contido em uma Variável Índice que irá apontar para o elemento do vetor cujo conteúdo será acessado.
+
+
+# Combinando Vetores
+No exemplo de armazenar NOMES  e NOTAS de 20 alunos, como nomes(str) e notas(float) são de tipos diferentes,
+então a solução é definir um vetor para conter os nomes  e em seguida combiná-lo com os dados das médias.
+pode ser definido um vetor para conter os nomes e outro para conter as notas: Vetores_nomes e Vetores_medias.
+- o mesmo ÍNDICE que aponta para um elemento do vetor "Vetores_medias", também apontará para o elemento correspondente "Vetores_nomes".
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# Matrizes
+
+Considerando que foi criado esses dois vetores distintos para armazenar nomes e médias dos alunos e mostrar esses dados:
+Pode-se alterar o algoritmo para não receber a média_final, mas calcular essa média a partir de nota_bimestral1 e nota_bimestral2.
+- Aplicando os conceitos de Vetores, deve-se definir 3 vetores para armazenarem: nota_bimestral1, nota_bimestral2 e media_final.
+
+Com essa alteração, combinamos todos os vetores e acessamos o conteúdo.
+
+# Matriz: definição.
+A MATRIZ é uma variável composta homogênea Multidimensional.
+- Composta: porque é constituído de n elementos ou variáveis;
+- Homogênea porque armazena dados de um único tipo;
+- Multidimensional porque pode armazenar os dados e disponibilizá-los considerando multi perspectivas, ou seja, várias dimensões.
+Também devemos definir o número máximo de elementos que ela deve conter.
+
+exemplo matriz: Agenda Eletrônica.
+- dimensões dessa matriz: ano, mês, semana, dia, dia da semana e horário (6 dimensões).
+
+Voltando ao exemplo, ao invés de definri 3 vetores, pode ser criado uma ÚNICA MATRIZ:
+- cada linha armazena as notas do aluno;
+- cada coluna dessa linha armazena o tipo da nota;
+- a coluna 3 recebe a media_final. media_final = nota_bimestral1 * 0.6 + nota_bimestral2 * 0.6.
+Essa matriz será bidimensional (matriz x coluna).
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# Estrutura de dados
+
+- Listas
+- Arrays (vetores e matrizes)
+- Tuplas
+- Dicionários (chave - valor)
+- Árvores
+
+
+# Listas: 
+arranjos sequenciais de informações mais simples;
+podem ser usadas para estruturas de dados complexas: matrizes e árvores, por exemplo.
+*o operador del pode ser utilizado para remover elementos: del lista[2]
+
+- incrementos em slices: a[0:10:2]  é possível retornar os valores usando o conceito de incrementos (passos em slice).
+- se uma lista vai conter um número determinado de de elementos (ex: 5), é correto inicializá-la: 
+    lista = [0]*5.
+    lista = [0, 0, 0, 0, 0]
+
+- como a string não pode ser modificada, podemos converter-la em <list> para modificá-la.
+
+# None
+em estrutura e dados, é importante preencher uma posição com um valor não válido "None".
+útil para criar lista vazia mas com número definido de posições:
+    lista = [None]*5
+    lista: [None, None, None, None, None]
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# comando for
+
+for var in lista: comandos
+- comandos são repetidos para cada valor de lista.
+- durante a repetição, var possui o valor corrente da lista.
+
+ Ex.:
+   for i in range(1,7): print (i, end=“ “)
+   1 2 3 4 5 6
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# Comparando listas:
+- pelo número de elementos: se lista1 tem 4 elementos, mas lista2 tem 8 elementos. result: lista2 é maior.
+- lista1 == lista2. result: somente será verdadeiro se elas possuirem exatos mesmos valores nas mesmas posições da lista.
+
+uma lista é maior que um número, mas menor que uma string.
+
+[1,2] < [2, 3]  #True
+[2,5] != [2,5]  #False
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# variáveis tipo <list>
+atribui uma variável a outra (a = b), cria uma nova referência, mas NÃO uma nova lista.
+para saver se duas var se referem ao mesmo valor, usar is:
+   a = b = [1, 2, 3]
+   a is b
+    >>>True
+   c = a
+   c is b
+    >>>True
+_____________________________________________________________________________________________________________________________________________________________________________________________
+# Matrizes
+
+listas podem ser usadas para guardar matrizes.
+por exemplo, podemos criar uma matriz-identidade de 3x3:
+    matriz = []
+    for i in range(3):
+       matriz.append([0]*3)
+       matriz[i][i] = 1
+
+    
+
+
+

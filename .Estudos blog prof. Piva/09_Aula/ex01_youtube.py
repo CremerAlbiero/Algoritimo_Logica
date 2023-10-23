@@ -9,6 +9,12 @@ while True:
     else:
         cidades_lista.append(cidade)
 
-if len(cidades_lista) > 1:
+if len(cidades_lista) > 0:
     cidades_lista.sort()
-print(cidades_lista)
+    print("As cidades salvas são:\n")
+    
+    for cidade in cidades_lista:
+        
+        print(cidade)
+else:
+    print("Você não digitou nenhuma cidade!")
