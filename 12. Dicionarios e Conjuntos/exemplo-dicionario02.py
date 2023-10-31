@@ -13,3 +13,5 @@ telefones.get("Maria")
 # pop(chave)   remove a chave e seu par correspondente.
 telefones.pop("Pedro")
 print(telefones)
+
+#verificar outras funções (estudo em casa)
